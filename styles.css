@@ -1,3 +1,8 @@
+/*Applies same font to whole page*/
+*{
+    font-family: 'Fredoka', sans-serif;
+}
+
 #footer {
 	position: fixed;
 	left: 0;
