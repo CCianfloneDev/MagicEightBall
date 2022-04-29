@@ -3,6 +3,7 @@
     font-family: 'Fredoka', sans-serif;
 }
 
+/* footer styling */
 #footer {
 	position: fixed;
 	left: 0;
@@ -13,7 +14,26 @@
 	text-align: center;
 }
 
+/* footer link styling */
 #footer a{
 	text-decoration: none;
 	color: lightgreen;
+}
+/* draws 8 ball */
+#eightBall
+{
+	margin: auto;
+	width: 50%;
+	border: 3px solid black;
+	padding: 10px;
+	background-color: #1c163b;
+	width: 500px;
+	height: 500px;
+	border-radius: 350px;
+}
+
+/* Centers text */
+main
+{
+	text-align: center;
 }
