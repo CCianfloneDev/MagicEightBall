@@ -20,8 +20,7 @@
 	color: lightgreen;
 }
 /* draws 8 ball */
-#eightBall
-{
+#eightBall{
 	margin: auto;
 	width: 50%;
 	border: 3px solid black;
@@ -32,8 +31,20 @@
 	border-radius: 350px;
 }
 
+/* styling for inner white circle */
+#innerCircle{
+	margin: auto;
+	width: 50%;
+	border: 3px solid black;
+	padding: 40px;
+	position: relative;
+	background-color: white;
+	width: 300px;
+	height: 300px;
+	border-radius: 300px;
+}
+
 /* Centers text */
-main
-{
+main{
 	text-align: center;
 }
