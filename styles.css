@@ -48,3 +48,28 @@
 main{
 	text-align: center;
 }
+
+/* adds padding above button */
+#buttonContainer{
+	padding-top: 30px;
+}
+
+/* styling for button */
+button{
+	height: 120px;
+	width: 150px;
+	font-size: 30px;
+	border-radius: 10%;
+	border: 2px solid #e7e7e7;
+	background-color: white;
+	color: black;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* hover effects for button */
+button:hover {
+	background-color: #555555;
+	color: white;
+	transition: 0.7s;
+	box-shadow: none;
+  }
