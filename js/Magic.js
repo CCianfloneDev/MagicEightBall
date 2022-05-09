@@ -1,5 +1,3 @@
-let spinButton = document.getElementById("magicButton");
-
 /*
     populateImages function
     Using the dog API dataset populate existing image elements
