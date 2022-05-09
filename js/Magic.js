@@ -10,4 +10,6 @@ function populatefactFetch() {
     randomFactText.textContent = `${data.type}`});
 }
 
-spinButton.addEventListener("click", populatefactFetch);
+document.addEventListener("DOMContentLoaded", () => {
+  spinButton.addEventListener("click", populatefactFetch);
+})
