@@ -1,6 +1,6 @@
 /*
-    populateImages function
-    Using the dog API dataset populate existing image elements
+    populatefactFetch function
+    Using the Numbers API dataset populate existing image elements
 */
 function populatefactFetch() {
   let randomFactText = document.getElementById("randomFactText");
