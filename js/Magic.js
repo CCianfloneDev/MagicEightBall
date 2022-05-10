@@ -1,17 +1,17 @@
-let spinButton = document.getElementById("magicButton");
-
-
-
 /*
-    populateImages function
-    Using the dog API dataset populate existing image elements
-*//*
+    populatefactFetch function
+    Using the Numbers API dataset populate existing image elements
+*/
 function populatefactFetch() {
   let randomFactText = document.getElementById("randomFactText");
 
   fetch("http://numbersapi.com/random/trivia")
+  .then(response => response.text())
   .then(data => { 
-    randomFactText.textContent = `${data.type}`});
-}*/
+    randomFactText.textContent = `${data}`});
+}
 
-spinButton.addEventListener("click", populatefactFetch);
+document.addEventListener("DOMContentLoaded", () => {
+  spinButton.addEventListener("click", populatefactFetch);
+})
+
