@@ -5,7 +5,7 @@
 function populatefactFetch() {
   let randomFactText = document.getElementById("randomFactText");
 
-  fetch("http://numbersapi.com/random/trivia")
+  fetch("https://numbersapi.com/random/trivia")
   .then(response => response.text())
   .then(data => { 
     randomFactText.textContent = `${data}`});
