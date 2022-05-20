@@ -5,10 +5,10 @@
 function populatefactFetch() {
   let randomFactText = document.getElementById("randomFactText");
 
-  fetch("https://api.fungenerators.com/fact/random")
-  .then(response => response.text())
+  fetch("https://uselessfacts.jsph.pl/random.json?language=en")
+  .then(response => response.json())
   .then(data => { 
-    randomFactText.textContent = `${data}`});
+    randomFactText.textContent = `${data['text']}`});
 }
 
 document.addEventListener("DOMContentLoaded", () => {
