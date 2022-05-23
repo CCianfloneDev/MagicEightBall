@@ -1,14 +1,14 @@
 /*
     populatefactFetch function
-    Using the Numbers API dataset populate existing image elements
+    Using: https://fungenerators.com/api/facts/#apidoc
 */
 function populatefactFetch() {
   let randomFactText = document.getElementById("randomFactText");
 
-  fetch("http://numbersapi.com/random/trivia")
-  .then(response => response.text())
+  fetch("https://uselessfacts.jsph.pl/random.json?language=en")
+  .then(response => response.json())
   .then(data => { 
-    randomFactText.textContent = `${data}`});
+    randomFactText.textContent = `${data['text']}`});
 }
 
 document.addEventListener("DOMContentLoaded", () => {
