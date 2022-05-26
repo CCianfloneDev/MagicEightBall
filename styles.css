@@ -44,6 +44,10 @@
 	border-radius: 300px;
 }
 
+#randomFactText{
+	margin-top: 60px;
+}
+
 /* Centers text */
 main{
 	text-align: center;
